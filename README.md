@@ -16,6 +16,61 @@
 </ul>
 
 <div align="center">
+    <h2>• Setup •</h2>
+</div>
+<p>
+    This is a bare Git repository with minimal dependencies and setup effort.
+    Specifically:
+</p>
+<ul>
+    <li><code>git</code>: for cloning and version control.</li>
+    <li><code>sh</code> (or any POSIX-compliant shell): for running provided shell scripts.</li>
+</ul>
+<p>
+    Of course, they are technically unnecessary if you only need or want to
+    cherry-pick configurations.
+</p>
+
+<p>
+    Contents are organized relative to actual system locations as follows,
+    where <code>$REPO</code> refers to this repository's root:
+</p>
+<table align="center">
+    <thead>
+        <tr>
+            <th>Content</th>
+            <th>Relative Location</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>.dir/</code> <code>.file</code></td>
+            <td><code>$HOME</code></td>
+        </tr>
+        <tr>
+            <td><code>dir/</code></td>
+            <td><code>/</code></td>
+        </tr>
+        <tr>
+            <td><code>file</code></td>
+            <td><code>$REPO</code></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    The justification for this is that my configurations are spread across my
+    home directory and root directory, and this is quite simple to manage with
+    Git by specifying different working trees for these locations.
+</p>
+
+<p>
+    When this repository is cloned, contents will not be placed relative to
+    these locations; rather, they will all be relative to <code>$REPO</code>.
+    You will have to either manually move them to their appropriate locations
+    or use the provided shell scripts (see below).
+</p>
+
+<div align="center">
     <h2>• Acknowledgements •</h2>
 </div>
 <ul>
