@@ -84,4 +84,5 @@
         <li><a href="https://wiki.archlinux.org/title/Dotfiles">Dotfiles</a></li>
         <li><a href="https://wiki.archlinux.org/title/XDG_Base_Directory">XDG Base Directory</a></li>
     </ul>
+    <li><a href="https://www.shellcheck.net/">ShellCheck</a></li>
 </ul>
