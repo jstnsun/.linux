@@ -63,11 +63,16 @@
     Git by specifying different working trees for these locations.
 </p>
 
+<div align="center">
+    <h3>♦ Unpacking ♦</h3>
+</div>
 <p>
     When this repository is cloned, contents will not be placed relative to
-    these locations; rather, they will all be relative to <code>$REPO</code>.
-    You will have to either manually move them to their appropriate locations
-    or use the provided shell scripts (see below).
+    the locations in the table above; rather, they will all be relative to
+    <code>$REPO</code>. You will have to either manually move them or use
+    <a href="unpack.sh"><code>unpack.sh</code></a> to automate the process.
+    As with any random script that can modify your file system, please verify
+    its contents before running it, and keep any important data backed up.
 </p>
 
 <div align="center">
