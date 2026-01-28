@@ -72,16 +72,16 @@
     repository, but then by default remote tracking is not setup and refs are
     ignored. If you want the the best of both worlds, you will have to either
     manually clone and configure this repository or use
-    <a href="install.sh"><code>install.sh</code></a> to automate the process.
-    As with any random script that can modify your file system, please verify
-    its contents before running it, and keep any important data backed up.
+    <a href="install.sh"><code>install.sh</code></a><a href="#running-scripts"><sup>1</sup></a>
+    to automate the process.
 </p>
 
 <p>
-    If you opt to use <a href="install.sh"><code>install.sh</code></a> instead
-    of manually cloning and configuring, you can use either of the following:
+    If you opt to use <a href="install.sh"><code>install.sh</code></a><sup><a href="#running-scripts">1</a></sup>,
+    you can run one of the commands below. If the script completes
+    successfully, this repository will be installed in the same directory from
+    which the script was run.
 </p>
-
 <ul>
 <li>Pipeline:</li>
 
@@ -93,18 +93,32 @@
         chmod +x install.sh && \
         ./install.sh && \
         rm install.sh
+
 </ul>
 
 <div align="center">
     <h3>♦ Unpacking ♦</h3>
 </div>
 <p>
-    When this repository is cloned, contents will not be placed relative to
+    When this repository is installed, contents will not be placed relative to
     the locations in the table above; rather, they will all be relative to
     <code>$REPO</code>. You will have to either manually move them or use
-    <a href="unpack.sh"><code>unpack.sh</code></a> to automate the process.
-    As with any random script that can modify your file system, please verify
-    its contents before running it, and keep any important data backed up.
+    <a href="unpack.sh"><code>unpack.sh</code></a><a href="#running-scripts"><sup>1</sup></a>
+    to automate the process.
+</p>
+
+<div align="center">
+    <h2>• Disclaimers •</h2>
+</div>
+
+<div align="center">
+    <h3 id="running-scripts">♦ Running Scripts ♦</h3>
+</div>
+<p>
+    As with any script you find, you should review its contents before running
+    it. If it can modify data on your system, make sure any important data is
+    backed up before running it. The scripts in this repository have been
+    tested for major issues, but they may still contain minor issues.
 </p>
 
 <div align="center">
