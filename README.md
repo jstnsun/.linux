@@ -64,6 +64,38 @@
 </p>
 
 <div align="center">
+    <h3>♦ Installing ♦</h3>
+</div>
+<p>
+    This repository relies on the structure and variable working tree property
+    of a bare Git repository. Thus ideally it should be cloned as a bare
+    repository, but then by default remote tracking is not setup and refs are
+    ignored. If you want the the best of both worlds, you will have to either
+    manually clone and configure this repository or use
+    <a href="install.sh"><code>install.sh</code></a> to automate the process.
+    As with any random script that can modify your file system, please verify
+    its contents before running it, and keep any important data backed up.
+</p>
+
+<p>
+    If you opt to use <a href="install.sh"><code>install.sh</code></a> instead
+    of manually cloning and configuring, you can use either of the following:
+</p>
+
+<ul>
+<li>Pipeline:</li>
+
+    curl -fsSL "https://raw.githubusercontent.com/jstnsun/.linux/refs/heads/master/install.sh" | sh
+
+<li>AND list:</li>
+
+    curl -fsSLO "https://raw.githubusercontent.com/jstnsun/.linux/refs/heads/master/install.sh" && \
+        chmod +x install.sh && \
+        ./install.sh && \
+        rm install.sh
+</ul>
+
+<div align="center">
     <h3>♦ Unpacking ♦</h3>
 </div>
 <p>
