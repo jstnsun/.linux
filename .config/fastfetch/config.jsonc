@@ -1,0 +1,122 @@
+// config.jsonc
+//
+// Configuration file for the fastfetch CLI tool.
+// See https://github.com/fastfetch-cli/fastfetch for more information.
+//
+// This configuration requires a Nerd Font to correctly render UTF-16 icons.
+// See https://www.nerdfonts.com/ for more information.
+//
+// jstnsun
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "padding": { "top": 3, "left": 3 }
+    },
+    "display": {
+        "separator": "  ",
+        "color": { "output": "#B8C0FF" },
+        "key": { "paddingLeft": 2 },
+        "size": { "binaryPrefix": "si" },
+        "constants": [
+            "  ",
+            "    ",
+            "\uf444",
+            "╭──────────────────────╮",
+            "╰──────────────────────╯"
+        ]
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "{$4}"
+        },
+        {
+            "type": "custom",
+            "format": "{$2}{##870476}{$3}{$1}{##A93165}{$3}{$1}{##CB6565}{$3}{$1}{##EE9842}{$3}{$1}{##EEDD00}{$3}{$1}{##98DD54}{$3}"
+        },
+        "break",
+        {
+            "type": "os",
+            "key": "\uebc6",
+            "keyColor": "38;5;93",
+            "format": "{#1}{pretty-name}"
+        },
+        {
+            "type": "kernel",
+            "key": "\uf013",
+            "keyColor": "38;5;32",
+            "format": "{#1}{release}"
+        },
+        {
+            "type": "packages",
+            "key": "\udb80\udfd6",
+            "keyColor": "38;5;220",
+            "format": "{#1}{all} packages"
+        },
+        {
+            "type": "uptime",
+            "key": "\ue641",
+            "keyColor": "38;5;40",
+            "format": "{#1}{days}:{hours}:{minutes}:{seconds}"
+        },
+        "break",
+        {
+            "type": "terminal",
+            "key": "\uf489",
+            "keyColor": "38;5;94",
+            "format": "{#1}{pretty-name}"
+        },
+        {
+            "type": "shell",
+            "key": "\udb82\udeb7",
+            "keyColor": "38;5;209",
+            "format": "{#1}{pretty-name}"
+        },
+        {
+            "type": "memory",
+            "key": "\uefc5",
+            "keyColor": "38;5;124",
+            "format": "{#1}{used} ({percentage})"
+        },
+        {
+            "type": "localip",
+            "key": "\udb85\udebe",
+            "keyColor": "38;5;175",
+            "format": "{#1}{ipv4}"
+        },
+        {
+            "type": "processes",
+            "key": "\ueba2",
+            "keyColor": "38;5;215",
+            "format": "{#1}{result} processes"
+        },
+        "break",
+        {
+            "type": "display",
+            "key": "\udb80\udf7a",
+            "keyColor": "38;5;21",
+            "format": "{#1}{height}p @ {refresh-rate}Hz"
+        },
+        {
+            "type": "de",
+            "key": "\ue23c",
+            "keyColor": "38;5;15",
+            "format": "{#1}{pretty-name}"
+        },
+        {
+            "type": "wm",
+            "key": "\uf488",
+            "keyColor": "38;5;15",
+            "format": "{#1}{pretty-name} ({protocol-name})"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "{$2}{##653198}{$3}{$1}{##3165BA}{$3}{$1}{##0098CB}{$3}{$1}{##00BACB}{$3}{$1}{##1ECBBA}{$3}{$1}{##42DD87}{$3}"
+        },
+        {
+            "type": "custom",
+            "format": "{$5}"
+        }
+    ]
+}
