@@ -6,7 +6,7 @@
 <hr>
 
 <div align="center">
-    <h2>• About •</h2>
+    <h2>♦ About ♦</h2>
 </div>
 <ul>
     <li>This repository contains my configurations and is tailored for my own use.</li>
@@ -16,7 +16,7 @@
 </ul>
 
 <div align="center">
-    <h2>• Setup •</h2>
+    <h2>♦ Setup ♦</h2>
 </div>
 <p>
     This is a bare Git repository with minimal dependencies and setup effort.
@@ -64,7 +64,7 @@
 </p>
 
 <div align="center">
-    <h3>♦ Installing ♦</h3>
+    <h3>• Installing •</h3>
 </div>
 <p>
     This repository relies on the structure and variable working tree property
@@ -97,7 +97,7 @@
 </ul>
 
 <div align="center">
-    <h3>♦ Unpacking ♦</h3>
+    <h3>• Unpacking •</h3>
 </div>
 <p>
     When this repository is installed, contents will not be placed relative to
@@ -108,11 +108,11 @@
 </p>
 
 <div align="center">
-    <h2>• Disclaimers •</h2>
+    <h2>♦ Disclaimers ♦</h2>
 </div>
 
 <div align="center">
-    <h3 id="running-scripts">♦ Running Scripts ♦</h3>
+    <h3 id="running-scripts">• Running Scripts •</h3>
 </div>
 <p>
     As with any script you find, you should review its contents before running
@@ -122,7 +122,7 @@
 </p>
 
 <div align="center">
-    <h2>• Acknowledgements •</h2>
+    <h2>♦ Acknowledgements ♦</h2>
 </div>
 <ul>
     <li><a href="https://wiki.archlinux.org/title/Main_page">ArchWiki</a></li>
