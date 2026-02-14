@@ -1,0 +1,9 @@
+# stylua.toml
+#
+# Style configuration file for Lua plugins for the Neovim text editor.
+# See https://github.com/JohnnyMorganz/StyLua for more information.
+#
+# jstnsun
+
+indent_type = "Spaces"
+collapse_simple_statement = "Always"
