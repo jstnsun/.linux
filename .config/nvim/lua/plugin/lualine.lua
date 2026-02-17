@@ -53,7 +53,12 @@ return {
             },
             lualine_b = {
                 { "filetype", icon_only = true, padding = { left = 1, right = 0 } },
-                { "filename", newfile_status = true, padding = { left = 0, right = 1 } },
+                {
+                    "filename",
+                    newfile_status = true,
+                    symbols = { modified = "●", readonly = "∴", unnamed = "★", newfile = "○" },
+                    padding = { left = 0, right = 1 },
+                },
             },
             lualine_c = {
                 { "lsp_status", padding = { left = 1, right = 0 } },
