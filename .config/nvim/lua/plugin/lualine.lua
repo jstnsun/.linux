@@ -79,7 +79,7 @@ return {
         },
         tabline = {
             lualine_a = {
-                { "tabs", mode = 1, path = 3, show_modified_status = false },
+                { "tabs", mode = 1, path = 3, symbols = { modified = "●" } },
             },
             lualine_x = {
                 { "diagnostics", update_in_insert = true },
