@@ -79,13 +79,10 @@ return {
         },
         tabline = {
             lualine_a = {
-                { "tabs", mode = 1, path = 3, symbols = { modified = "●" } },
+                { "tabs", show_modified_status = false },
             },
-            lualine_x = {
-                { "diagnostics", update_in_insert = true },
-            },
-            lualine_y = {
-                { "diff", source = diff_source },
+            lualine_z = {
+                { "windows", disabled_buftypes = { "nofile", "prompt", "quickfix" } },
             },
         },
         extensions = { "fzf", "nvim-tree" },
