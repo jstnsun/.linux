@@ -15,6 +15,18 @@ return {
     "mason-org/mason.nvim",
     build = ":MasonUpdate",
     cmd = { "Mason", "MasonLog", "MasonUpdate" },
+    keys = {
+        {
+            "<leader>hm",
+            "<cmd>vertical help mason.nvim<cr>",
+            desc = "open [h]elp [m]ason",
+        },
+        {
+            "<leader>mm",
+            "<cmd>Mason<cr>",
+            desc = "open [m]ason [m]enu",
+        },
+    },
     opts = {
         PATH = "skip",
         ui = {
