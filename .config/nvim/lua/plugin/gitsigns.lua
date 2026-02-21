@@ -53,7 +53,18 @@ return {
     "lewis6991/gitsigns.nvim",
     cmd = "Gitsigns",
     event = { "BufNewFile", "BufReadPost" },
-    keys = { { "<leader>gm", "<cmd>Gitsigns<cr>", desc = "open [g]itsigns [m]enu" } },
+    keys = {
+        {
+            "<leader>hg",
+            "<cmd>vertical help gitsigns.nvim<cr>",
+            desc = "open [h]elp [g]itsigns",
+        },
+        {
+            "<leader>gm",
+            "<cmd>Gitsigns<cr>",
+            desc = "open [g]itsigns [m]enu",
+        },
+    },
     opts = {
         signs = signs_tbl,
         signs_staged = signs_tbl,
