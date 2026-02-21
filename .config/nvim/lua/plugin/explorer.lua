@@ -126,7 +126,18 @@ return {
     "nvim-tree/nvim-tree.lua",
     dependencies = "nvim-tree/nvim-web-devicons",
     cmd = { "NvimTreeFocus", "NvimTreeToggle" },
-    keys = { { "<leader>e", nvim_tree_focus_toggle, desc = "open [e]xplorer" } },
+    keys = {
+        {
+            "<leader>he",
+            "<cmd>vertical help nvim-tree-lua.txt<cr>",
+            desc = "open [h]elp [e]xplorer",
+        },
+        {
+            "<leader>e",
+            nvim_tree_focus_toggle,
+            desc = "open [e]xplorer",
+        },
+    },
     opts = {
         on_attach = nvim_tree_on_attach,
         hijack_cursor = true,
