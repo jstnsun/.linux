@@ -1,0 +1,11 @@
+# selene.toml
+#
+# Linter configuration file for Lua plugins for the Neovim text editor.
+# See https://github.com/Kampfkarren/selene for more information.
+#
+# jstnsun
+
+std = "vim"
+
+[lints]
+mixed_table = "allow"
