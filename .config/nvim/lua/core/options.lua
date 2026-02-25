@@ -54,3 +54,4 @@ vim.o.timeoutlen = 400
 vim.o.updatetime = 1000
 vim.o.virtualedit = "block"
 vim.o.whichwrap = "b,s,<,>,[,]"
+vim.o.winborder = "single"
