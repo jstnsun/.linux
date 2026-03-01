@@ -19,9 +19,9 @@ vim.api.nvim_create_autocmd("QuitPre", {
             if win_count > 2 then return end
         end
         if #vim.api.nvim_list_tabpages() > 1 then
-            vim.api.nvim_cmd({ cmd = "tabclose" }, {})
+            vim.api.nvim_command("tabclose")
         else
-            vim.api.nvim_cmd({ cmd = "qall" }, {})
+            vim.api.nvim_command("qall")
         end
     end,
 })
