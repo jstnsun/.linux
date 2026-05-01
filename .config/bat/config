@@ -1,0 +1,14 @@
+# config
+#
+# Configuration file for the bat catenate program.
+# See https://github.com/sharkdp/bat for more information.
+#
+# jstnsun
+
+--diff-context=3
+--italic-text="always"
+--strip-ansi="auto"
+--style="auto"
+--tabs=0
+--theme-dark="TokyoNight-Storm"
+--theme-light="TokyoNight-Day"
