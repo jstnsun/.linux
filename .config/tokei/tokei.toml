@@ -1,0 +1,9 @@
+# tokei.toml
+#
+# Configuration file for the tokei count-lines-of-code program.
+# See https://github.com/XAMPPRocky/tokei for more information.
+#
+# jstnsun
+
+sort = "code"
+treat_doc_strings_as_comments = true
