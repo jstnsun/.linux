@@ -7,3 +7,4 @@
 
 export DEV_DIR="$HOME/development"
 export REPO_DIR="$DEV_DIR/repositories"
+export PATH="${XDG_BIN_HOME:-$HOME/.local/bin}:$PATH"
