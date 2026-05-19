@@ -8,10 +8,12 @@
 -- Use the below table to match linters with filetypes.
 local linters_by_ft = {
     ["lua"] = { "selene" },
+    ["python"] = { "ruff" },
 }
 
 -- Use the below table to match markers with linters.
 local markers_by_linter = {
+    ["ruff"] = { "pyproject.toml", "ruff.toml", ".ruff.toml" },
     ["selene"] = { "selene.toml" },
 }
 
