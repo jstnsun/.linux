@@ -28,6 +28,7 @@ return {
     },
     config = function()
         vim.lsp.enable({
+            "basedpyright",
             "lua_ls",
         })
     end,
