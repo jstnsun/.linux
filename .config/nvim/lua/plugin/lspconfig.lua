@@ -7,7 +7,6 @@
 
 return {
     "neovim/nvim-lspconfig",
-    cmd = "LspInfo",
     event = { "BufNewFile", "BufReadPre" },
     keys = {
         {
@@ -17,12 +16,12 @@ return {
         },
         {
             "<leader>pm",
-            "<cmd>LspInfo<cr>",
+            "<cmd>checkhealth vim.lsp<cr>",
             desc = "open ls[p] [m]enu",
         },
         {
             "<leader>pr",
-            "<cmd>LspRestart<cr>",
+            "<cmd>lsp restart<cr>",
             desc = "ls[p] [r]estart",
         },
     },
